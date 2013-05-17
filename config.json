@@ -1,0 +1,10 @@
+{
+  "locals": {
+    "url": "http://juanolvera.com",
+    "name": "Juan Olvera",
+    "owner": "Juan Olvera",
+    "description": "code & personal thoughts",
+    "index_articles": 3
+  },
+  "plugins": ["wintersmith-less"]
+}

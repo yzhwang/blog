@@ -1,0 +1,300 @@
+@import 'fonts.css';
+
+@import 'normalize.css';
+
+@import 'animate.css';
+/* ==========================================================================
+   h5bp base styles: opinionated defaults
+   ========================================================================== */
+html,
+button,
+input,
+select,
+textarea {
+  color: #666666;
+}
+body {
+  font-size: 1em;
+  line-height: 1.4;
+}
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+}
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+textarea {
+  resize: vertical;
+}
+/* ==========================================================================
+   Variables & functions 
+   ========================================================================== */
+/* Sub-section comment block
+   ========================================================================== */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+  overflow-y: scroll;
+}
+/* Typography 
+   ========================================================================== */
+body {
+  background: #ffffff;
+  color: #666666;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.618em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333333;
+  font-weight: 700;
+  margin-bottom: 0.809em;
+  line-height: 1.125em;
+}
+h1 {
+  font-size: 2.945em;
+}
+h2 {
+  font-size: 2.618em;
+}
+h3 {
+  font-size: 1.82em;
+}
+h4 {
+  font-size: 1.618em;
+}
+blockquote {
+  color: #999;
+}
+/* Lists & Navigation 
+   ========================================================================== */
+p,
+ul,
+ol,
+dl,
+blockquote {
+  font-size: 1.125em;
+  line-height: 1.618em;
+}
+ul,
+ol {
+  padding: 0;
+  margin-left: 1.618em;
+}
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: decimal;
+}
+nav ul,
+nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+strong {
+  font-style: italic;
+  color: #444;
+}
+/* Links
+   ========================================================================== */
+a {
+  color: #333;
+}
+a:visited,
+a {
+  outline: none;
+  text-decoration: none;
+}
+a:hover {
+  outline: none;
+  text-decoration: underline;
+}
+a:active,
+a:focus {
+  outline: none;
+}
+/* ==========================================================================
+   Desktop version
+   ========================================================================== */
+.header-page {
+  margin-bottom: 2em;
+}
+.header-home {
+  margin-bottom: 4em;
+}
+img.juan {
+  width: 4.854em;
+  -webkit-border-radius: 100px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 100px;
+  -moz-background-clip: padding;
+  border-radius: 100px;
+  background-clip: padding-box;
+}
+.title {
+  margin-bottom: 0.1618em;
+  font-size: 1.82em;
+}
+.description,
+a.licence {
+  margin: 0;
+  color: #999;
+  font-style: italic;
+}
+nav {
+  display: table;
+  margin: 1em auto 0;
+}
+nav ul li {
+  float: left;
+  margin-right: 1em;
+}
+#content,
+header,
+footer {
+  text-align: center;
+}
+.posts {
+  margin-left: 0;
+}
+article,
+#content p,
+#content ul li,
+.posts li {
+  text-align: left;
+}
+#content .posts li {
+  margin-bottom: 1em;
+  list-style: none;
+}
+#content a {
+  font-weight: 800;
+}
+.main {
+  max-width: 40em;
+  margin: 1em auto;
+}
+.post-header {
+  margin-bottom: 4em;
+}
+.post-title-home {
+  font-size: 1.618em;
+  margin: 0.618em 0 0 0;
+}
+.post-title {
+  margin-top: 1em;
+  margin-bottom: 0;
+}
+.date-home,
+.date-post {
+  color: #999;
+  display: table;
+  text-align: center;
+  font-style: italic;
+}
+.date-post {
+  margin: 0 auto;
+}
+.date-home {
+  display: inline;
+  margin-right: 1em;
+  margin-top: 5px;
+  float: left;
+  width: 6.25em;
+}
+#archive {
+  display: table;
+  margin: 3.618em auto 0 auto;
+}
+footer {
+  background: #272822;
+  color: #fff;
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  padding: 1em;
+  display: block;
+  margin-top: 4em;
+}
+footer p {
+  margin-top: 0;
+}
+footer a {
+  color: #999;
+}
+.licence:hover {
+  color: #fff;
+}
+pre code {
+  -webkit-border-radius: 4px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 4px;
+  -moz-background-clip: padding;
+  border-radius: 4px;
+  background-clip: padding-box;
+  background: #333;
+  font-family: 'Ubuntu mono', sans-serif;
+  font-size: 1.125em;
+}
+.twitter {
+  color: #00a0d1;
+}
+.twitter:hover {
+  color: #00799e;
+}
+.github {
+  color: #4183c4;
+}
+.github:hover {
+  color: #3269a0;
+}
+#disqus_thread {
+  margin-top: 4em;
+}
+/* ==========================================================================
+   Mobile version
+   ========================================================================== */
+@media handheld, only screen and (max-width: 767px) {
+  
+}
+/* ==========================================================================
+   Provide higher res assets for iPhone 4
+   ========================================================================== */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  /*	.logo {
+  		background: url(logo2x.jpg) no-repeat;
+  		background-size: 212px 303px;
+  	}*/
+}
